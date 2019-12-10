@@ -1,0 +1,84 @@
+html {
+    font-family: sans-serif, 'Courier New', Courier, monospace;
+}
+
+header {
+    display: flex;
+    justify-content: space-between
+}
+
+.navbar-brand {
+    font-size: 5en;
+}
+
+.content {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#emailinput .type-and-input {
+    margin: 2px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-around; */
+}
+
+.social-media a {
+    color: black;
+    margin: 10px 10px;
+}
+
+.left {
+    background-color: lightgray;
+    height: 80vh;
+    width: 50vw;
+    flex-grow: 1;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.left #emailinput {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 100px;
+}
+
+.right {
+    flex-grow: 3;
+    height: 80vh;
+    width: 50vw;
+}
+
+.right img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .contactone {
+    display: flex;
+}
+
+.contact {
+    margin: 3px
+}
+
+.address {
+    margin: 3px
+}
+
+footer .addressone {
+    display: flex;
+}
